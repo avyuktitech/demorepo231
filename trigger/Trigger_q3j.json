@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_q3j",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline_q3j",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2022-03-07T06:35:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
